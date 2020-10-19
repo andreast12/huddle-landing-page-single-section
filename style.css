@@ -22,6 +22,7 @@ body {
 
 .container {
 	width: 87%;
+	max-width: 600px;
 	margin: auto;
 }
 
@@ -39,6 +40,7 @@ main .container {
 
 main img {
 	width: 100%;
+	max-width: 450px;
 }
 
 main h1 {
@@ -74,8 +76,22 @@ ion-icon {
 	border: 2px solid;
 	border-radius: 50%;
 	padding: .4em;
+	cursor: pointer;
+	transition: .3s;
 }
 
 ion-icon + ion-icon {
 	margin-left: .5em;
+}
+
+ion-icon[name="logo-facebook"]:hover {
+	color: #4867AA;
+}
+
+ion-icon[name="logo-twitter"]:hover {
+	color: #2BA8E0;
+}
+
+ion-icon[name="logo-instagram"]:hover {
+	color: #d6249f;
 }
