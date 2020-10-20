@@ -71,6 +71,11 @@ main button {
 	outline: none;
 	cursor: pointer;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+	transition: .3s;
+}
+
+main button:hover {
+	background-color: #ccc;
 }
 
 
